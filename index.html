@@ -227,7 +227,9 @@
          <section id="contact" class="contact">
                 <h2 class="title">Nous contacter</h2>
                 <p>N'hésitez pas à nous contacter pour toute question ou collaboration !</p>
-                <form class="flex-form" action="php/contact.php" method="post">
+                 <!-- <form class="flex-form" action="php/contact.php" method="post">-->
+                    <form class="flex-form" data-netlify="true" name="contact">
+  
                     <input type="text" id="username" name="nom" placeholder="Votre nom" required="" />
                     <input type="email" id="mail" name="mail" placeholder="votre mail" required="" />
 
