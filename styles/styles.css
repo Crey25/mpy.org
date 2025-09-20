@@ -88,11 +88,10 @@ header{
 #main-nav .nav-link:hover {
   color: var(--secondary-color) !important;
 }
-.navbar-toggler{
-    position: relative;
-    left: 0;
-}
-.navbar .show{
+
+
+
+.collapse.show{
     position: fixed;
     top: 70px;
     left: 0;
@@ -105,8 +104,13 @@ header{
     border-radius: 5px;
     padding: 50px 40px;
     z-index: 999;
+    
 
 }
+
+
+
+
 /*button donate*/
 
 .donate{
